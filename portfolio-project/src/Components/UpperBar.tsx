@@ -16,7 +16,6 @@ const UpperBar: React.FC = () => {
                     <a href="" className="nav-button">Home</a>
                     <a href="" className="nav-button">About</a>
                     <a href="" className="nav-button">Experience</a>
-                    <a href="" className="nav-button">Resume</a>
                     <a href="" className="nav-button">Projects</a>
                     <a href="" className="nav-button">Skills</a>
                     <a href="" className="nav-button">Contact</a>
@@ -39,7 +38,6 @@ const UpperBar: React.FC = () => {
                 <a href="" className="nav-button-mobile">Home</a>
                 <a href="" className="nav-button-mobile">About</a>
                 <a href="" className="nav-button-mobile">Experience</a>
-                <a href="" className="nav-button-mobile">Resume</a>
                 <a href="" className="nav-button-mobile">Projects</a>
                 <a href="" className="nav-button-mobile">Skills</a>
                 <a href="" className="nav-button-mobile">Contact</a>
