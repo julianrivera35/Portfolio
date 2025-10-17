@@ -4,7 +4,7 @@ const ExperienceSection: React.FC = () => {
     return (
         <div className="bg-white w-full min-h-screen h-auto flex flex-col items-center justify-evenly pt-20 pb-20">
             <h1>Experience</h1>
-            <ul className='list-disc list-outside md:max-w-3xl max-w-2xs space-y-4 pt-20'>
+            <ul className='list-disc list-outside md:max-w-3xl max-w-2xs space-y-4 pt-10'>
                 <li>
                     <div>
                         <p>2025</p>
@@ -28,6 +28,7 @@ const ExperienceSection: React.FC = () => {
                             native engineering and enterprise data management.</p>
                     </div>
                 </li>
+             
             </ul>
         </div>
     )
