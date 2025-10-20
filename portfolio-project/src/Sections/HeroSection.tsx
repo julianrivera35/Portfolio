@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 const HeroSection: React.FC = () => {
     const t = useTranslation("global")[0];
     return (
-        <div className="bg-amber-100 section-container flex-col lg:flex-row items-center">
+        <div className="section-container primary flex-col lg:flex-row items-center">
             <div className='flex flex-col h-full justify-center items-center lg:items-start text-center text-balance lg:text-left' >
                 <h3 >{t("hero.greeting")}</h3>
                 <h2>Julián Rivera</h2>

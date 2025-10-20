@@ -11,7 +11,7 @@ const UpperBar: React.FC = () => {
         i18n.changeLanguage(lang);
     }
     return (
-        <nav className="bg-red-900 w-full fixed z-10">
+        <nav className="bg-slate-500 w-full fixed z-10">
             <div className="h-18 font-merri flex items-center justify-between">
                 {/* Logo section */}
                 <div className="text-white text-4xl font-family-merri font-bold ml-10">

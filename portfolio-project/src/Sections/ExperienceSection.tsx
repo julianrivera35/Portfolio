@@ -2,7 +2,7 @@ import React from 'react';
 
 const ExperienceSection: React.FC = () => {
     return (
-        <div className="bg-white section-container h-auto flex-col items-center">
+        <div className="section-container primary h-auto flex-col items-center">
             <h1>Experience</h1>
             <ul className='list-disc list-outside md:max-w-3xl max-w-2xs space-y-4 pt-10'>
                 <li>

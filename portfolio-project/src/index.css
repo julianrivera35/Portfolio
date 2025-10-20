@@ -36,6 +36,14 @@ h4 {
   @apply w-full min-h-screen flex justify-evenly pt-20 pb-20;
 }
 
+.section-container.primary{
+  @apply bg-stone-100
+}
+
+.section-container.secondary{
+  @apply bg-gray-200
+}
+
 
 @keyframes pulseAnimate {
   100% {
