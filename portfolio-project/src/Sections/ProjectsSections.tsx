@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectsSections: React.FC = () => {
     return (
-        <div className="bg-gray-400 w-full min-h-screen h-auto flex flex-col items-center justify-evenly pt-20 pb-20">
+        <div className="bg-gray-400 section-container flex-col items-center">
             <h1>My Projects</h1>
             <div className='bg-red-200 flex-1 md:max-h-[500px] max-h-[800px] w-[90vw] flex flex-col md:flex-row items-center justify-start overflow-x-auto gap-6 mt-6 mb-6 pl-6 pr-6'>
                 <div className='min-w-[200px] max-w-[550px] md:min-w-[400px] min-h-[450px] bg-amber-50 pt-1 pb-1 pl-3 pr-2'>

@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 const HeroSection: React.FC = () => {
     const t = useTranslation("global")[0];
     return (
-        <div className="bg-amber-100 w-full h-[95vh] flex flex-col lg:flex-row items-center justify-evenly pt-10 pb-10">
+        <div className="bg-amber-100 section-container flex-col lg:flex-row items-center">
             <div className='flex flex-col h-full justify-center items-center lg:items-start text-center text-balance lg:text-left' >
                 <h3 >{t("hero.greeting")}</h3>
                 <h2>Julián Rivera</h2>
@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
                     <DownloadButton />
                 </div>
             </div >
-            <img src={ProfilePhoto} alt="Chuerk" className='relative rounded-full max-w-70 lg:max-w-sm mt-4 lg:mt-0' />
+            <img src={ProfilePhoto} alt="Chuerk" className='rounded-full max-w-70 lg:max-w-sm mt-4 lg:mt-0' />
         </div >
     )
 }
