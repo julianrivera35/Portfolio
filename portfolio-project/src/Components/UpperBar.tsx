@@ -14,7 +14,7 @@ const UpperBar: React.FC = () => {
         <nav className="bg-slate-500 w-full fixed z-10">
             <div className="h-18 font-merri flex items-center justify-between">
                 {/* Logo section */}
-                <div className="text-white text-4xl font-family-merri font-bold ml-10">
+                <div className="font-family-prata text-white text-4xl font-family-merri font-bold ml-10">
                     Julián
                 </div>
                 {/* Buttons Section */}

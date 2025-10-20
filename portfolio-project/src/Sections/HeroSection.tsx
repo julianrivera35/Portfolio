@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => {
     const t = useTranslation("global")[0];
     return (
         <div className="section-container primary flex-col lg:flex-row items-center">
-            <div className='flex flex-col h-full justify-center items-center lg:items-start text-center text-balance lg:text-left' >
+            <div className='flex flex-col h-full justify-center items-center xl:items-start text-center text-balance xl:text-left gap-2 mt-2' >
                 <h3 >{t("hero.greeting")}</h3>
                 <h2>Julián Rivera</h2>
                 <h1>{t("hero.profession")}</h1>
@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
                     <DownloadButton />
                 </div>
             </div >
-            <img src={ProfilePhoto} alt="Chuerk" className='rounded-full max-w-70 lg:max-w-sm mt-4 lg:mt-0' />
+            <img src={ProfilePhoto} alt="Julian's Photo" className='rounded-full max-w-70 lg:max-w-sm mt-4 lg:mt-0' />
         </div >
     )
 }

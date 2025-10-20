@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { MdOutlineSimCardDownload } from "react-icons/md";
 import resumePDFEnglish from '../assets/CV - Julián Rivera - 2025 - v4.pdf';
 
 const DownloadButton = () => {
@@ -13,8 +14,8 @@ const DownloadButton = () => {
         document.body.removeChild(link);
     };
     return (
-        <button onClick={handleDownload}>
-            {t("hero.resume")}
+        <button onClick={handleDownload} className='flex flex-row justify-center items-center text-xl'>
+            <MdOutlineSimCardDownload className='text-4xl'/> {t("hero.resume")}
         </button>
     )
 };

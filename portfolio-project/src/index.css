@@ -1,8 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-family-merri: "Merriweather", serif;
+  --font-family-sans: "Open Sans", sans-serif;
+  --font-family-prata: "Prata", serif;
 }
 
 .nav-button {
@@ -13,23 +15,31 @@
   @apply text-gray-600 font-sans text-lg hover:underline px-4 block;
 }
 
+button {
+  @apply font-family-sans font-bold
+}
+
 button:hover {
   @apply hover:cursor-pointer;
 }
 
 h1 {
-  @apply text-5xl;
+  @apply font-family-prata font-bold text-5xl drop-shadow-lg leading-snug;
 }
 
 h2 {
-  @apply text-4xl;
+  @apply font-family-prata font-semibold text-4xl;
 }
 h3 {
-  @apply text-3xl;
+  @apply font-family-sans text-3xl;
 }
 
 h4 {
-  @apply text-2xl;
+  @apply font-family-sans font-light text-2xl;
+}
+
+span, p, li, a {
+  @apply font-family-sans;
 }
 
 .section-container {
