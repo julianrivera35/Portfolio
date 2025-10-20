@@ -1,26 +1,35 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { CiMenuBurger } from "react-icons/ci";
 import { IoMdMoon } from "react-icons/io";
 
 const UpperBar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [t, i18n] = useTranslation("global");
+
+    const handleChangeLanguage = (lang:string) => {
+        i18n.changeLanguage(lang);
+    }
     return (
         <nav className="bg-red-900 w-full">
             <div className="h-18 font-merri flex items-center justify-between">
                 {/* Logo section */}
-                <div className="text-white text-4xl font-merri ml-10">
+                <div className="text-white text-4xl font-family-merri font-bold ml-10">
                     Julián
                 </div>
                 {/* Buttons Section */}
                 <div className="lg:block hidden">
-                    <a href="" className="nav-button">Home</a>
-                    <a href="" className="nav-button">About</a>
-                    <a href="" className="nav-button">Experience</a>
-                    <a href="" className="nav-button">Projects</a>
-                    <a href="" className="nav-button">Skills</a>
-                    <a href="" className="nav-button">Contact</a>
+                    <a href="" className="nav-button">{t("navbar.home")}</a>
+                    <a href="" className="nav-button">{t("navbar.about")}</a>
+                    <a href="" className="nav-button">{t("navbar.experience")}</a>
+                    <a href="" className="nav-button">{t("navbar.projects")}</a>
+                    <a href="" className="nav-button">{t("navbar.skills")}</a>
+                    <a href="" className="nav-button">{t("navbar.portfolio")}</a>
+                    <a href="" className="nav-button">{t("navbar.contact")}</a>
                 </div>
                 <div className="flex">
+                    <button onClick={() => handleChangeLanguage("en")}>EN</button>
+                    <button onClick={() => handleChangeLanguage("es")}>ES</button>
                     <button onClick={() => { }}
                         className="px-4 py-4 text-2xl text-white hover:bg-red-950/20 rounded-full lg:mr-10 md:mr-0 sm:mr-0">
                         <IoMdMoon />
@@ -35,12 +44,13 @@ const UpperBar: React.FC = () => {
 
             {/* Buttons Section mobile */}
             <div className={`${isOpen ? "block" : "hidden"} lg:hidden bg-gray-100 space-y-2 pb-3 pt-3`}>
-                <a href="" className="nav-button-mobile">Home</a>
-                <a href="" className="nav-button-mobile">About</a>
-                <a href="" className="nav-button-mobile">Experience</a>
-                <a href="" className="nav-button-mobile">Projects</a>
-                <a href="" className="nav-button-mobile">Skills</a>
-                <a href="" className="nav-button-mobile">Contact</a>
+                <a href="" className="nav-button-mobile">{t("navbar.home")}</a>
+                <a href="" className="nav-button-mobile">{t("navbar.about")}</a>
+                <a href="" className="nav-button-mobile">{t("navbar.experience")}</a>
+                <a href="" className="nav-button-mobile">{t("navbar.projects")}</a>
+                <a href="" className="nav-button-mobile">{t("navbar.skills")}</a>
+                <a href="" className="nav-button-mobile">{t("navbar.portfolio")}</a>
+                <a href="" className="nav-button-mobile">{t("navbar.contact")}</a>
             </div>
 
         </nav>

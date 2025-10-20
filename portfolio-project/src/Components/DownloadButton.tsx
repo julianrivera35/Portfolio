@@ -1,6 +1,8 @@
+import { useTranslation } from 'react-i18next';
 import resumePDFEnglish from '../assets/CV - Julián Rivera - 2025 - v4.pdf';
 
 const DownloadButton = () => {
+    const t = useTranslation("global")[0];
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = resumePDFEnglish;
@@ -12,7 +14,7 @@ const DownloadButton = () => {
     };
     return (
         <button onClick={handleDownload}>
-            Download Resume
+            {t("hero.resume")}
         </button>
     )
 };

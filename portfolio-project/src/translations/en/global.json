@@ -1,0 +1,24 @@
+{
+    "navbar":{
+        "home": "Home",
+        "about": "About Me",
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "hero":{
+        "greeting": "Hello, I'm",
+        "profession": "Systems and Computing Engineer",
+        "hobby": " AI Enthusiast",
+        "description": "Driving innovation with Big Data & AI",
+        "resume": "Download Resume"
+    },
+    "about":{
+        "title":"About Me",
+        "subtitle":"Creative Developer and AI passionate",
+        "info":"I am a passionate software engineer with 1 year of proffesional experience and a growing expertise in FullStack development, Big Data, Machine Lerning and generative AI. I love creating innovative solutions that leverage the power of technology to solve real-world problems. My journey in the tech world has been driven by a relentless curiosity and a desire to push the boundaries of what is possible with code and to create value for businesses.",
+        "nowadays": "Currently I am searching for new opportunities to apply my skills and contribute to exciting projects in the fields of software development, Big Data and AI. I am eager to collaborate with like-minded professionals and organizations that share my passion for innovation and technology. Let's connect and explore how we can create impactful solutions together!"
+    }
+}
