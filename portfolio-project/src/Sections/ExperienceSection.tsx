@@ -1,6 +1,4 @@
-import React from 'react';
-
-const ExperienceSection: React.FC = () => {
+const ExperienceSection = () => {
     return (
         <div className="section-container primary h-auto flex-col items-center">
             <h1>Experience</h1>

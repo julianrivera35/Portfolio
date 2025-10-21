@@ -10,9 +10,9 @@ const HeroSection: React.FC = () => {
         <div className="section-container primary flex-col lg:flex-row items-center gap-5">
             <div className='flex flex-col h-full justify-center items-center xl:items-start text-center text-balance xl:text-left gap-2 mt-2' >
                 <h4 className='text-slate-700'>{t("hero.greeting")}</h4>
-                <h2 className='text-slate-700'>Julián Rivera</h2>
-                <h1 className=''>{t("hero.profession")}</h1>
-                <h2>{t("hero.hobby")}</h2>
+                <h1>Julián Rivera</h1>
+                <h2 className='text-slate-700'>{t("hero.profession")}</h2>
+                <h2 className='text-slate-700'>{t("hero.hobby")}</h2>
                 <p className='text-lg text-slate-700'>{t("hero.description")}</p>
                 {/* Buttons */}
                 <div className='flex gap-6 mt-4 justify-center items-center'>

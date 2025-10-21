@@ -16,7 +16,7 @@
 }
 
 button {
-  @apply font-family-sans font-bold
+  @apply font-family-sans
 }
 
 button:hover {

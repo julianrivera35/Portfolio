@@ -14,8 +14,8 @@ const DownloadButton = () => {
         document.body.removeChild(link);
     };
     return (
-        <button onClick={handleDownload} className='flex flex-row justify-center items-center text-xl rounded-3xl border-2 px-4 py-0.5 border-slate-500 bg-slate-500 text-stone-100'>
-            <MdOutlineSimCardDownload className='text-4xl'/> {t("hero.resume")}
+        <button onClick={handleDownload} className='flex flex-row justify-center items-center text-xl font-semibold rounded-3xl border-2 px-4 py-0.5 border-slate-500 bg-slate-500 text-stone-100'>
+            <MdOutlineSimCardDownload className='text-3xl pr-2'/> {t("hero.resume")}
         </button>
     )
 };
