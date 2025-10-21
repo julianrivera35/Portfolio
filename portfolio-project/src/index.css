@@ -35,7 +35,7 @@ h3 {
 }
 
 h4 {
-  @apply font-family-sans font-light text-2xl;
+  @apply font-family-sans text-2xl;
 }
 
 span, p, li, a {
@@ -43,7 +43,7 @@ span, p, li, a {
 }
 
 .section-container {
-  @apply w-full min-h-screen flex justify-evenly pt-20 pb-20;
+  @apply w-full min-h-screen flex justify-evenly pt-20 pb-20 pl-20 pr-20;
 }
 
 .section-container.primary{

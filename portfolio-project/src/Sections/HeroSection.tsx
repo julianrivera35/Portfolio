@@ -7,16 +7,16 @@ import { useTranslation } from 'react-i18next';
 const HeroSection: React.FC = () => {
     const t = useTranslation("global")[0];
     return (
-        <div className="section-container primary flex-col lg:flex-row items-center">
+        <div className="section-container primary flex-col lg:flex-row items-center gap-5">
             <div className='flex flex-col h-full justify-center items-center xl:items-start text-center text-balance xl:text-left gap-2 mt-2' >
-                <h3 >{t("hero.greeting")}</h3>
-                <h2>Julián Rivera</h2>
-                <h1>{t("hero.profession")}</h1>
+                <h4 className='text-slate-700'>{t("hero.greeting")}</h4>
+                <h2 className='text-slate-700'>Julián Rivera</h2>
+                <h1 className=''>{t("hero.profession")}</h1>
                 <h2>{t("hero.hobby")}</h2>
-                <p>{t("hero.description")}</p>
+                <p className='text-lg text-slate-700'>{t("hero.description")}</p>
                 {/* Buttons */}
-                <div className='flex gap-6 mt-4'>
-                    <a href="https://www.linkedin.com/in/julian-rivera-81795a253/" className='text-4xl'><FaLinkedin /></a>
+                <div className='flex gap-6 mt-4 justify-center items-center'>
+                    <a href="https://www.linkedin.com/in/julian-rivera-81795a253/" className='text-4xl'><FaLinkedin className='text-blue-800'/></a>
                     <a href="https://github.com/julianrivera35" className='text-4xl'><FaGithub /></a>
                     <DownloadButton />
                 </div>
