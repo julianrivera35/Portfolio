@@ -1,12 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import { MdOutlineSimCardDownload } from "react-icons/md";
 import resumePDFEnglish from '../assets/CV - Julián Rivera - 2025 - v4.pdf';
+import resumePDFSpanish from '../assets/CV - Julián Rivera - 2025 - es.pdf';
 
 const DownloadButton = () => {
-    const t = useTranslation("global")[0];
+    const [t, i18n]  = useTranslation("global");
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = resumePDFEnglish;
+        link.href = i18n.language === 'en' ? resumePDFEnglish : resumePDFSpanish;
         link.download = 'CV - Julián Rivera - 2025 - v4.pdf';
         link.target = '_blank';
         document.body.appendChild(link);
