@@ -43,7 +43,7 @@ span, p, li, a {
 }
 
 .section-container {
-  @apply w-full min-h-screen flex justify-evenly pt-20 pb-20 pl-20 pr-20;
+  @apply w-full min-h-screen flex justify-evenly pt-20 pb-20 md:pl-20 pl-2 md:pr-20 pr-2;
 }
 
 .section-container.primary{

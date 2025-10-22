@@ -24,7 +24,8 @@
     "language":{
         "spanish": "Spanish",
         "english": "English",
-        "buttonLabel": "Language"
+        "buttonLabel": "Language",
+        "buttonLabelShort": "Lang"
         
     }
 }
