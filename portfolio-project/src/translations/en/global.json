@@ -1,5 +1,5 @@
 {
-    "navbar":{
+    "navbar": {
         "home": "Home",
         "about": "About Me",
         "experience": "Experience",
@@ -8,24 +8,64 @@
         "portfolio": "Portfolio",
         "contact": "Contact"
     },
-    "hero":{
+    "hero": {
         "greeting": "Hello, I'm",
         "profession": "Systems and Computing Engineer",
         "hobby": " AI Enthusiast",
         "description": "Driving innovation with Big Data & AI",
         "resume": "Resume"
     },
-    "about":{
-        "title":"About Me",
-        "subtitle":"Creative Developer and AI passionate",
-        "info":"I am a passionate software engineer with 1 year of proffesional experience and a growing expertise in FullStack development, Big Data, Machine Lerning and generative AI. I love creating innovative solutions that leverage the power of technology to solve real-world problems. My journey in the tech world has been driven by a relentless curiosity and a desire to push the boundaries of what is possible with code and to create value for businesses.",
+    "about": {
+        "title": "About Me",
+        "subtitle": "Creative Developer and AI passionate",
+        "info": "I am a passionate software engineer with 1 year of proffesional experience and a growing expertise in FullStack development, Big Data, Machine Lerning and generative AI. I love creating innovative solutions that leverage the power of technology to solve real-world problems. My journey in the tech world has been driven by a relentless curiosity and a desire to push the boundaries of what is possible with code and to create value for businesses.",
         "nowadays": "Currently I am searching for new opportunities to apply my skills and contribute to exciting projects in the fields of software development, Big Data and AI. I am eager to collaborate with like-minded professionals and organizations that share my passion for innovation and technology. Let's connect and explore how we can create impactful solutions together!"
     },
-    "language":{
+    "language": {
         "spanish": "Spanish",
         "english": "English",
         "buttonLabel": "Language",
         "buttonLabelShort": "Lang"
-        
+    },
+    "experience": {
+        "title": "Experience",
+        "experiences": [
+            {
+                "initial_date": "February - 2025",
+                "end_date": "June - 2025",
+                "position": "Junior Software Engineer",
+                "company": "Quality Software SAS",
+                "description": "FullStack developer and founding engineer for a new company product. Designed and implemented solutions using React, TypeScript, Django REST, PostgreSQL, and AWS. Gained experience in software architecture, Git flows, and project organization, with ownership of end-to-end development and deployment workflows.",
+                "location": "Bogotá, Colombia",
+                "technologies": [
+                    "AWS",
+                    "TypeScript",
+                    "Python",
+                    "PostgreSQL",
+                    "React",
+                    "Node",
+                    "Django"
+                ]
+            },
+            {
+                "initial_date": "June - 2023",
+                "end_date": "December - 2023",
+                "position": "Software Engineer Intern",
+                "company": "BTG Pactual",
+                "description": "Developed and deployed a data-driven full-stack web platform integrating AWS Lambdas, serverless microservices, and PostgreSQL. Designed and optimized data pipelines for information retrieval and transformation, ensuring secure, scalable APIs. Strengthened expertise in cloud-native engineering and enterprise data management.",
+                "location": "Bogotá, Colombia",
+                "technologies": [
+                    "AWSLambda",
+                    "Serverless",
+                    "TypeScript",
+                    "Python",
+                    "PostgreSQL",
+                    "React",
+                    "ETL",
+                    "Node",
+                    "Django"
+                ]
+            }
+        ]
     }
 }

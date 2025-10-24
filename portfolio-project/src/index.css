@@ -54,15 +54,10 @@ span, p, li, a {
   @apply bg-gray-200
 }
 
+.tech-container{
+  @apply flex flex-col justify-center items-center
+}
 
-@keyframes pulseAnimate {
-  100% {
-    opacity: .2;
-    transform: scale(1.2);
-  }
-  0% {
-    opacity: .2;
-    transform: scale(1.1);
-  }
-
+.tech-leyend{
+  @apply text-center underline underline-offset-1
 }

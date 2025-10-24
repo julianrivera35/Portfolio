@@ -10,9 +10,9 @@ const UpperBar: React.FC = () => {
 
     return (
         <nav className="bg-slate-500 w-full fixed z-10">
-            <div className="h-18 font-merri flex items-center justify-evenly">
+            <div className="h-18 font-merri flex items-center xl:justify-evenly justify-between xl:px-0 px-4">
                 {/* Logo section */}
-                <div className="font-family-prata text-white text-4xl font-family-merri font-bold">
+                <div className="font-family-prata text-white text-4xl font-family-merri font-bold px-4">
                     Julián
                 </div>
                 {/* Buttons Section */}

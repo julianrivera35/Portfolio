@@ -1,5 +1,5 @@
 {
-    "navbar":{
+    "navbar": {
         "home": "Home",
         "about": "Acerca de Mí",
         "experience": "Experiencia",
@@ -8,23 +8,64 @@
         "portfolio": "Portafolio",
         "contact": "Contacto"
     },
-    "hero":{
+    "hero": {
         "greeting": "Hola, soy",
         "profession": "Ingeniero de Sistemas y Computación",
         "hobby": "Entusiasta de IA",
         "description": "Trayendo innovación con Big Data e IA",
         "resume": "Currículum"
     },
-    "about":{
-        "title":"Acerca de Mí",
-        "subtitle":"Desarrollando Creativo y apasionado por la IA",
-        "info":"Soy un apasionado ingeniero de software con un año de experiencia profesional y una creciente experiencia en desarrollo FullStack, Big Data, machine learning e inteligencia artificial generativa. Me encanta crear soluciones innovadoras que aprovechan el poder de la tecnología para resolver problemas del mundo real. Mi trayectoria en el mundo de la tecnología ha estado impulsada por una curiosidad incansable y el deseo de ampliar los límites de lo que es posible con el código y crear valor para las empresas.",
+    "about": {
+        "title": "Acerca de Mí",
+        "subtitle": "Desarrollador creativo y apasionado por la IA",
+        "info": "Soy un apasionado ingeniero de software con un año de experiencia profesional y una creciente experiencia en desarrollo FullStack, Big Data, machine learning e inteligencia artificial generativa. Me encanta crear soluciones innovadoras que aprovechan el poder de la tecnología para resolver problemas del mundo real. Mi trayectoria en el mundo de la tecnología ha estado impulsada por una curiosidad incansable y el deseo de ampliar los límites de lo que es posible con el código y crear valor para las empresas.",
         "nowadays": "Actualmente estoy buscando nuevas oportunidades para aplicar mis habilidades y contribuir a proyectos interesantes en los campos del desarrollo de software, Big Data e IA. Estoy deseando colaborar con profesionales y organizaciones afines que compartan mi pasión por la innovación y la tecnología. ¡Conectemos y exploremos cómo podemos crear juntos soluciones impactantes!"
     },
-    "language":{
+    "language": {
         "spanish": "Español",
         "english": "Inglés",
         "buttonLabel": "Idioma",
         "buttonLabelShort": "Lang"
+    },
+    "experience": {
+        "title": "Experiencia",
+        "experiences": [
+            {
+                "initial_date": "Febrero - 2025",
+                "end_date": "Junio - 2025",
+                "position": "Ingeniero de Software Junior",
+                "company": "Quality Software SAS",
+                "description": "Desarrollador FullStack e ingeniero fundador de un nuevo producto de la compañía. Diseñé e implementé soluciones utilizando React, TypeScript, Django REST, PostgreSQL y AWS. Adquirí experiencia en arquitectura de software, flujos de Git y organización de proyectos, con responsabilidad completa en los flujos de desarrollo e implementación de principio a fin.",
+                "location": "Bogotá, Colombia",
+                "technologies": [
+                    "AWS",
+                    "TypeScript",
+                    "Python",
+                    "PostgreSQL",
+                    "React",
+                    "Node",
+                    "Django"
+                ]
+            },
+            {
+                "initial_date": "Junio - 2023",
+                "end_date": "Diciembre - 2023",
+                "position": "Ingeniero de Software en Práctica",
+                "company": "BTG Pactual",
+                "description": "Desarrollé e implementé una plataforma web full-stack basada en datos que integra AWS Lambdas, microservicios serverless y PostgreSQL. Diseñé y optimicé pipelines de datos para la recuperación y transformación de información, garantizando APIs seguras y escalables. Fortalecí mi experiencia en ingeniería nativa en la nube y gestión de datos empresariales.",
+                "location": "Bogotá, Colombia",
+                "technologies": [
+                    "AWSLambda",
+                    "Serverless",
+                    "TypeScript",
+                    "Python",
+                    "PostgreSQL",
+                    "React",
+                    "ETL",
+                    "Node",
+                    "Django"
+                ]
+            }
+        ]
     }
 }
