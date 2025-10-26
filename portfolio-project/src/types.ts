@@ -7,3 +7,13 @@ export interface ExperienceCardInterface {
     location: string,
     technologies: string[]
 }
+
+export interface ProjectCardInterface {
+    initial_date: string,
+    end_date: string,
+    name: string,
+    type: string,
+    description:string,
+    technologies: string[],
+    github_link: string | null
+}

@@ -4,7 +4,6 @@ import type { ExperienceCardInterface } from "../types";
 const ExperienceSection = () => {
     const t = useTranslation("global")[0];
     const experincesList = t("experience.experiences", {returnObjects:true}) as ExperienceCardInterface[];
-    console.log(experincesList[0])
     return (
         <div className="section-container primary h-auto flex-col items-center gap-5">
             <h1 className="pb-10">{t("experience.title")}</h1>

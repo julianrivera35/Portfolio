@@ -1,52 +1,27 @@
 import React from 'react';
+import ProjectCard from '../Components/ProjectCard';
+import { useTranslation } from 'react-i18next';
+import type { ProjectCardInterface } from '../types';
 
 const ProjectsSections: React.FC = () => {
+    const t = useTranslation("global")[0];
+    const projects = t("projects.projects", { returnObjects: true }) as ProjectCardInterface[]
     return (
-        <div className="bg-gray-400 section-container secondary flex-col items-center">
+        <div className="section-container secondary flex-col items-center">
             <h1>My Projects</h1>
-            <div className='flex-1 md:max-h-[500px] max-h-[800px] w-[90vw] flex flex-col md:flex-row items-center justify-start overflow-x-auto gap-6 mt-6 mb-6 pl-6 pr-6'>
-                <div className='min-w-[200px] max-w-[550px] md:min-w-[400px] min-h-[450px] bg-amber-50 pt-1 pb-1 pl-3 pr-2'>
-                    <h3>Stock Investment wep page</h3>
-                    <p>Sep 2025 - Oct 2025</p>
-                    <p>Personal Project</p>
-                    <p>
-                        A full-stack application that aggregates analyst recommendations and provides AI-powered investment
-                        insights. Built with Go backend and Vue.js frontend.
-                    </p>
-                    <a href="https://github.com/julianrivera35/stock-investment/blob/main/README.md">Github Repository</a>
-                </div>
-                <div className='min-w-[200px] max-w-[550px] md:min-w-[400px] min-h-[450px] bg-amber-50 pt-1 pb-1 pl-3 pr-2'>
-                    <h3>RAG Product Recommender</h3>
-                    <p>Aug 2025 - Aug 2025</p>
-                    <p>Personal Project</p>
-                    <p>
-                        A production-ready RAG (Retrieval-Augmented Generation) system for product recommendations,
-                        demonstrating SOLID principles and clean architecture in ML systems. Build entirely using python:
-                        huggingface, numpy, pandas, torch, tansformers and streamlit
-                    </p>
-                    <a href="https://github.com/julianrivera35/RAG-ProductRecommender">Github Repository</a>
-                </div>
-                <div className='min-w-[200px] max-w-[550px] md:min-w-[400px] min-h-[450px] bg-amber-50 pt-1 pb-1 pl-3 pr-2'>
-                    <h3>SmartCampus</h3>
-                    <p>Aug 2024 - Dec 2024</p>
-                    <p>Universidad de los Andes</p>
-                    <p>
-                        Degree final project: mobile application that, through authentication and role discriminations, enables
-                        the visualization of demographic distribution across campus. Built with Kotlin Multiplatform, Swift,
-                        Firebase, Android Studio, and Xcode. Focused on data processing, distributed systems, and
-                        real-time insights.
-                    </p>
-                </div>
-                <div className='min-w-[200px] max-w-[550px] md:min-w-[400px] min-h-[450px] bg-amber-50 pt-1 pb-1 pl-3 pr-2'>
-                    <h3>Predictive Lung Cancer Model</h3>
-                    <p>Jan 2024 - June 2024</p>
-                    <p>Universidad de los Andes & Hospital Santafé</p>
-                    <p>
-                        Team project to predict lung cancer probabilities using machine learning models trained on
-                        demographic, behavioral, and living condition data. Used Python, Scikit-learn, GCP Pipelines, and
-                        Google Colab. Built dashboards in Power BI to communicate insights.
-                    </p>
-                </div>
+            <div className='bg-white border-2 border-gray-300/70 rounded-4xl flex-1 md:max-h-[900px] max-h-[900px] w-[90vw] flex flex-col md:flex-row items-center justify-start overflow-x-auto gap-6 mt-6 mb-6 pl-6 pr-6'>
+                {projects.map((element, index)=>(
+                    <ProjectCard
+                    key={`${element.name}-${index}`}
+                    name={element.name}
+                    initial_date={element.initial_date}
+                    end_date={element.end_date}
+                    type={element.type}
+                    description={element.description}
+                    technologies={element.technologies}
+                    github_link={element.github_link}
+                />
+                ))}
             </div>
         </div>
     )

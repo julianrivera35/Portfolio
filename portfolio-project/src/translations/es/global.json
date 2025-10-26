@@ -67,5 +67,69 @@
                 ]
             }
         ]
+    },
+    "projects": {
+        "title": "My Projects",
+        "projects": [
+            {
+                "initial_date": "Septiembre - 2025",
+                "end_date": "Octubre - 2025",
+                "name": "Página web de Inversión en Acciones",
+                "type": "Proyecto Personal",
+                "description": "Una aplicación full-stack que agrega recomendaciones de analistas y proporciona insights de inversión potenciados por IA. Construida con backend en Go y frontend en Vue.js.",
+                "technologies": [
+                    "vue",
+                    "go",
+                    "TypeScript",
+                    "CSS"
+                ],
+                "github_link": "https://github.com/julianrivera35/stock-investment/blob/main/README.md"
+            },
+            {
+                "initial_date": "Agosto - 2025",
+                "end_date": "Agosto - 2025",
+                "name": "Recomendador de Productos RAG",
+                "type": "Proyecto Personal",
+                "description": "Un sistema RAG (Generación Aumentada por Recuperación) listo para producción para recomendaciones de productos, demostrando principios SOLID y arquitectura limpia en sistemas de ML. Construido completamente usando Python: huggingface, numpy, pandas, torch, transformers y streamlit",
+                "technologies": [
+                    "Python",
+                    "transformers",
+                    "streamlit",
+                    "torch",
+                    "pandas",
+                    "numpy",
+                    "huggingface"
+                ],
+                "github_link": "https://github.com/julianrivera35/RAG-ProductRecommender"
+            },
+            {
+                "initial_date": "Agosto - 2024",
+                "end_date": "Diciembre - 2024",
+                "name": "SmartCampus",
+                "type": "Proyecto de Grado - Universidad de los Andes",
+                "description": "Aplicación móvil que, a través de autenticación y discriminación de roles, permite la visualización de la distribución demográfica en el campus. Construida con Kotlin Multiplatform, Swift, Firebase, Android Studio y Xcode. Enfocada en procesamiento de datos, sistemas distribuidos e insights en tiempo real.",
+                "technologies": [
+                    "kotlinmultiplatform",
+                    "swift",
+                    "firebase"
+                ],
+                "github_link": ""
+            },
+            {
+                "initial_date": "Enero - 2024",
+                "end_date": "Junio - 2024",
+                "name": "Modelo Predictivo de Cáncer de Pulmón",
+                "type": "Proyecto universitario - Universidad de los Andes & Hospital Santafé",
+                "description": "Proyecto en equipo para predecir probabilidades de cáncer de pulmón usando modelos de aprendizaje automático entrenados con datos demográficos, conductuales y de condiciones de vida. Se utilizó Python, Scikit-learn, GCP Pipelines y Google Colab. Se construyeron dashboards en Power BI para comunicar insights.",
+                "technologies": [
+                    "Python",
+                    "Scikitlearn",
+                    "GCPPipelines",
+                    "googlecolab",
+                    "powerbi"
+                ],
+                "github_link": ""
+            }
+        ]
     }
 }
