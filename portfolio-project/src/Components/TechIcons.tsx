@@ -41,7 +41,7 @@ const technologyIcons: { [key: string]: JSX.Element } = {
 
 const RenderTechnologies = ({ technologies } :{technologies:string[]}) => {
     return(
-        <div className="flex flex-row gap-8 items-start justify-center flex-wrap xl:flex-nowrap p-5">
+        <div className="flex flex-row gap-8 items-start justify-center flex-wrap p-5">
             {
                 technologies.map((tech, index) => (
                     <div key={`${tech}-${index}`}>
