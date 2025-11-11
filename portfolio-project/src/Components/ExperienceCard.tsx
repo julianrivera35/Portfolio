@@ -1,7 +1,7 @@
 import type { ExperienceCardInterface } from "../types";
 import { FaCircle} from "react-icons/fa6";
 import { RxBorderDotted } from "react-icons/rx";
-import RenderTechnologies from './TechIcons';
+import {RenderTechnologies} from './TechIcons';
 
 const ExperienceCard = ({
     initial_date,
@@ -34,7 +34,7 @@ const ExperienceCard = ({
                 </span>
             </div>
             <div className="flex flex-col justify-center gap-4 px-4">
-                <h2 className="underline underline-offset-4">
+                <h2 className="underline underline-offset-4 py-4">
                     {position}
                 </h2>
                 <div className="flex flex-col gap-1 items-start justify-center">

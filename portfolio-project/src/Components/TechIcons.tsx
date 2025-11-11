@@ -33,13 +33,13 @@ const technologyIcons: { [key: string]: JSX.Element } = {
     kotlinmultiplatform: <div className="tech-container max-w-fit py-2"> <SiKotlin className="text-4xl text-purple-500" /> <span className="tech-leyend text-xs">Kotlin Multiplatform</span></div>,
     swift: <div className="tech-container max-w-fit py-2"> <SiSwift className="text-4xl text-orange-500" /> <span className="tech-leyend text-xs">Swift</span></div>,
     firebase: <div className="tech-container max-w-fit py-2"> <SiFirebase className="text-4xl text-orange-400" /> <span className="tech-leyend text-xs">Firebase</span></div>,
-    scikitlearn: <div className="tech-container max-w-fit py-2"> <SiScikitlearn className="text-5xl text-sky-500" /> <span className="tech-leyend text-xs">Scikit-learn</span></div>,
+    scikitlearn: <div className="tech-container max-w-fit py-0"> <SiScikitlearn className="text-5xl text-sky-500" /> <span className="tech-leyend text-xs">Scikit-learn</span></div>,
     gcppipelines: <div className="tech-container max-w-fit py-2"> <SiGooglecloud className="text-4xl text-gray-500" /> <span className="tech-leyend text-xs">Google Cloud Platform Pipelines</span></div>,
     googlecolab: <div className="tech-container max-w-fit py-2"> <SiGooglecolab className="text-4xl text-orange-500" /> <span className="tech-leyend text-xs">Google Colaboratory</span></div>,
     powerbi: <div className="tech-container max-w-fit py-2"> <BsBarChartFill className="text-4xl text-yellow-500" /> <span className="tech-leyend text-xs">Power BI</span></div>,
 }
 
-const RenderTechnologies = ({ technologies } :{technologies:string[]}) => {
+export const RenderTechnologies = ({ technologies } :{technologies:string[]}) => {
     return(
         <div className="flex flex-row gap-8 items-start justify-center flex-wrap p-5">
             {
@@ -57,4 +57,18 @@ const RenderTechnologies = ({ technologies } :{technologies:string[]}) => {
     )
 }
 
-export default RenderTechnologies;
+export const RenderAllTechnologies = () => {
+    return(
+        <div className="flex flex-row gap-8 items-start justify-center flex-wrap p-5">
+            {
+                Object.keys(technologyIcons).map((tech, index) => (
+                    <div key={`${tech}-${index}`}>
+                        {
+                            technologyIcons[tech]
+                        }
+                    </div>
+                ))
+            }
+        </div>
+    )
+}

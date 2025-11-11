@@ -5,7 +5,7 @@ const ExperienceSection = () => {
     const t = useTranslation("global")[0];
     const experincesList = t("experience.experiences", {returnObjects:true}) as ExperienceCardInterface[];
     return (
-        <div className="section-container primary h-auto flex-col items-center gap-5">
+        <div id="experience" className="section-container primary h-auto flex-col items-center gap-5">
             <h1 className="pb-10">{t("experience.title")}</h1>
             {experincesList.map((item, index) => (
                 <ExperienceCard 

@@ -17,11 +17,11 @@ const UpperBar: React.FC = () => {
                 </div>
                 {/* Buttons Section */}
                 <div className="xl:block hidden">
-                    <a href="" className="nav-button">{t("navbar.home")}</a>
-                    <a href="" className="nav-button">{t("navbar.about")}</a>
-                    <a href="" className="nav-button">{t("navbar.experience")}</a>
-                    <a href="" className="nav-button">{t("navbar.projects")}</a>
-                    <a href="" className="nav-button">{t("navbar.skills")}</a>
+                    <a href="#home" className="nav-button">{t("navbar.home")}</a>
+                    <a href="#about" className="nav-button">{t("navbar.about")}</a>
+                    <a href="#experience" className="nav-button">{t("navbar.experience")}</a>
+                    <a href="#projects" className="nav-button">{t("navbar.projects")}</a>
+                    <a href="#skills" className="nav-button">{t("navbar.skills")}</a>
                     <a href="" className="nav-button">{t("navbar.portfolio")}</a>
                     <a href="" className="nav-button">{t("navbar.contact")}</a>
                 </div>

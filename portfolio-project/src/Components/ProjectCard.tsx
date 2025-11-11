@@ -2,7 +2,7 @@ import type { ProjectCardInterface } from "../types";
 import { FaCircle } from "react-icons/fa6";
 import { RxBorderDotted } from "react-icons/rx";
 import { FaGithub } from "react-icons/fa";
-import RenderTechnologies from "./TechIcons";
+import {RenderTechnologies} from "./TechIcons";
 const ProjectCard = ({
     initial_date,
     end_date,

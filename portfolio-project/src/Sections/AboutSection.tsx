@@ -3,7 +3,7 @@ import PhotoSeneca from '../assets/SenecaPhoto.webp'
 const AboutSection = () => {
     const t = useTranslation("global")[0];  
     return (
-        <div className='section-container secondary flex-col gap-2 lg:flex-row items-start'>
+        <div id='about' className='section-container secondary flex-col gap-2 lg:flex-row items-start'>
             <div className=' flex flex-1 justify-center items-center'>
                 <img src={PhotoSeneca} alt="Julian's personal foto" className='max-h-[75vh]' />
             </div>

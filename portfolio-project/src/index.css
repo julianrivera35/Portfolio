@@ -61,3 +61,8 @@ span, p, li, a {
 .tech-leyend{
   @apply text-center underline underline-offset-1
 }
+
+
+html{
+  scroll-behavior: smooth;
+}
