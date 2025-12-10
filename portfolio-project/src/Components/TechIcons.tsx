@@ -62,7 +62,7 @@ export const RenderAllTechnologies = () => {
         <div className="flex flex-row gap-8 items-start justify-center flex-wrap p-5">
             {
                 Object.keys(technologyIcons).map((tech, index) => (
-                    <div key={`${tech}-${index}`}>
+                    <div key={`${tech}-${index}`} className="bg-slate-200 border-2 border-slate-600 rounded-3xl flex justify-center items-center p-4 w-[200px] h-[200px]">
                         {
                             technologyIcons[tech]
                         }

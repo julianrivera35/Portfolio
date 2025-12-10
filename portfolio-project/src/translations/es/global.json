@@ -4,8 +4,8 @@
         "about": "Acerca de Mí",
         "experience": "Experiencia",
         "projects": "Proyectos",
-        "skills": "Habilidades",
-        "portfolio": "Portafolio",
+        "skills": "Tech",
+        "portfolio": "Educación",
         "contact": "Contacto"
     },
     "hero": {
@@ -131,5 +131,28 @@
                 "github_link": ""
             }
         ]
+    },
+    "skills":{
+        "title":"Tecnológicas"
+    },
+    "education":{
+        "title": "Educación",
+        "college": {
+            "init_date": "Enero - 2020",
+            "end_date": "Junio - 2025",
+            "degree": "Pregrado en Ingeniería de Sistemas y Computación",
+            "institution": "Universidad de los Andes",
+            "location":"Bogotá, Colombia",
+            "pga": "3.9 / 5.0",
+            "description":""
+        },
+        "certificates":{
+            "title":"Certificados",
+            "info": [
+                {
+
+                }
+            ]
+        }
     }
 }

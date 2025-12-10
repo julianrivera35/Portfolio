@@ -5,7 +5,7 @@ export interface ExperienceCardInterface {
     company: string,
     description: string,
     location: string,
-    technologies: string[]
+    technologies: string[] | null
 }
 
 export interface ProjectCardInterface {

@@ -4,6 +4,7 @@ import AboutSection from './Sections/AboutSection';
 import ExperienceSection from './Sections/ExperienceSection';
 import ProjectsSections from './Sections/ProjectsSections';
 import SkillSection from './Sections/SkillSection';
+import EducationSenction from './Sections/EducationSection';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <ProjectsSections/>
       {/* Skills Section */}
       <SkillSection/>
+      {/** Education Section */}
+      <EducationSenction/>
     </>
   )
 }

@@ -4,8 +4,8 @@
         "about": "About Me",
         "experience": "Experience",
         "projects": "Projects",
-        "skills": "Skills",
-        "portfolio": "Portfolio",
+        "skills": "Tech",
+        "portfolio": "Education",
         "contact": "Contact"
     },
     "hero": {
@@ -131,5 +131,28 @@
                 "github_link": ""
             }
         ]
+    },
+    "skills":{
+        "title":"Tech"
+    },
+    "education":{
+        "title": "Education",
+        "college": {
+            "init_date": "January - 2020",
+            "end_date": "June - 2025",
+            "degree": "B.S. in Systems and Computing Engineering",
+            "institution": "Universidad de los Andes",
+            "location":"Bogotá, Colombia",
+            "pga": "3.9 / 5.0",
+            "description":"Systems and Computer Engineer from Universidad de los Andes, Colombia, with hands-on experience in machine learning, data pipelines, cloud computing (AWS & GCP), and full-stack development. Passionate about building scalable AI-driven applications and contributing to research-oriented, high-performance engineering teams. Skilled in problem-solving, teamwork, and ownership, with a strong commitment to excellence and continuous learning."
+        },
+        "certificates":{
+            "title":"Certificates",
+            "info":[
+                {
+
+                }
+            ]
+        }
     }
 }

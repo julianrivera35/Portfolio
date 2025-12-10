@@ -1,7 +1,7 @@
 import type { ExperienceCardInterface } from "../types";
-import { FaCircle} from "react-icons/fa6";
+import { FaCircle } from "react-icons/fa6";
 import { RxBorderDotted } from "react-icons/rx";
-import {RenderTechnologies} from './TechIcons';
+import { RenderTechnologies } from './TechIcons';
 
 const ExperienceCard = ({
     initial_date,
@@ -13,7 +13,7 @@ const ExperienceCard = ({
     technologies
 }: ExperienceCardInterface) => {
 
-    
+
 
     return (
         <div className="bg-slate-200 border-2 border-slate-600 rounded-3xl flex min-h-[50vh] xl:flex-row flex-col justify-evenly items-stretch xl:gap-5 min-w-[70vw]">
@@ -48,7 +48,8 @@ const ExperienceCard = ({
                 <span>
                     {description}
                 </span>
-                <RenderTechnologies technologies={technologies}/>
+                {technologies ? (<RenderTechnologies technologies={technologies} />) : null}
+
             </div>
         </div>
 
