@@ -132,25 +132,105 @@
             }
         ]
     },
-    "skills":{
-        "title":"Tecnológicas"
+    "skills": {
+        "title": "Tecnológicas"
     },
-    "education":{
+    "education": {
         "title": "Educación",
         "college": {
             "init_date": "Enero - 2020",
             "end_date": "Junio - 2025",
             "degree": "Pregrado en Ingeniería de Sistemas y Computación",
             "institution": "Universidad de los Andes",
-            "location":"Bogotá, Colombia",
-            "pga": "3.9 / 5.0",
-            "description":""
+            "location": "Bogotá, Colombia",
+            "description": "Ingeniero de Sistemas y Computación de la Universidad de los Andes, con experiencia en aprendizaje automático, análisis estadístico, canalizaciones de datos, computación en la nube (AWS y GCP) y desarrollo full-stack. Apasionado por construir aplicaciones basadas en datos e inteligencia artificial que generen valor estratégico y respalden la toma de decisiones de negocio. Experiencia en la aplicación de métodos estadísticos, visualización de información y diseño de reportes ejecutivos, así como en la comunicación efectiva de resultados técnicos a audiencias no especializadas. Comprometido con la mejora continua, la colaboración interdisciplinaria y el aprendizaje constante."
         },
-        "certificates":{
-            "title":"Certificados",
+        "certificates": {
+            "title": "Certificados",
             "info": [
                 {
-
+                    "name": "Learn C++ Course",
+                    "description": "Certificado de Finalización",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/b74a2390dfc4127fa5d43fe147425ad0",
+                    "date": "Emitido Noviembre 2025"
+                },
+                {
+                    "name": "Building Transformer-Based Natural Language Processing Applications",
+                    "description": "Certificado de Competencia",
+                    "institution": "Nvidia",
+                    "link": "https://learn.nvidia.com/certificates?id=5VJWBVKoTdqGlvTrK6GJTA",
+                    "date": "Emitido Septiembre 2025"
+                },
+                {
+                    "name": "Fundamentals of Deep Learning",
+                    "description": "Certificado de Competencia",
+                    "institution": "Nvidia",
+                    "link": "https://learn.nvidia.com/certificates?id=Q5JKXgdBQkOns3rGxCPSsg",
+                    "date": "Emitido Septiembre 2025"
+                },
+                {
+                    "name": "Learn Go Course",
+                    "description": "Certificado de Finalización",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/60773d2e920679c8e46ff634b9ed2e6e",
+                    "date": "Emitido Septiembre 2025"
+                },
+                {
+                    "name": "Learn Go: Loops, Arrays, Maps, and Structs Course",
+                    "description": "Certificado de Finalización",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/c5a07b3444c44fb0b3883075c5af51f4",
+                    "date": "Emitido Septiembre 2025"
+                },
+                {
+                    "name": "Learn Intermediate Go Course",
+                    "description": "Certificado de Finalización",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/42ee48b10e8644f0b3131a933c02cd00",
+                    "date": "Emitido Septiembre 2025"
+                },
+                {
+                    "name": "Learn Vue.js Course",
+                    "description": "Certificado de Finalización",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/db927a84bf4bba96bb285ee6a85466fc",
+                    "date": "Emitido Septiembre 2025"
+                },
+                {
+                    "name": "Intro to Cloud Computing Course",
+                    "description": "Certificado de Finalización",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/1353857e7ad5c1d0d578073e0d5e31e4",
+                    "date": "Emitido Abril 2025"
+                },
+                {
+                    "name": "Intro to Generative AI Course",
+                    "description": "Certificado de Finalización",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/28ccb695c353465a8785a036ad32d3b9",
+                    "date": "Emitido Abril 2025"
+                },
+                {
+                    "name": "Building LLM Applications With Prompt Engineering",
+                    "description": "Certificado de Competencia",
+                    "institution": "Nvidia",
+                    "link": "https://learn.nvidia.com/certificates?id=nhBDvRRtTEe17e1TFUutSA",
+                    "date": "Emitido Enero 2025"
+                },
+                {
+                    "name": "Generative AI with Diffusion Models",
+                    "description": "Certificado de Competencia",
+                    "institution": "Nvidia",
+                    "link": "https://learn.nvidia.com/certificates?id=eDniQet2TtWYIT-CQ0WnZw",
+                    "date": "Emitido Octubre 2024"
+                },
+                {
+                    "name": "Kotlin Multiplatform Masterclass - KMP, KMM - Android, iOS",
+                    "description": "Certificado de Finalización",
+                    "institution": "Udemy",
+                    "link": "https://www.udemy.com/certificate/UC-ad8d2d9c-01f5-480d-b065-0b04b6259980/",
+                    "date": "Emitido Septiembre 2024"
                 }
             ]
         }

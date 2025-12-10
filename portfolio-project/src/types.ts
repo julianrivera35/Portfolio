@@ -17,3 +17,11 @@ export interface ProjectCardInterface {
     technologies: string[],
     github_link: string | null
 }
+
+export interface CertificateCardInterface {
+    name: string,
+    description: string,
+    institution: string,
+    link: string,
+    date: string
+}

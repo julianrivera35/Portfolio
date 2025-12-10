@@ -132,25 +132,105 @@
             }
         ]
     },
-    "skills":{
-        "title":"Tech"
+    "skills": {
+        "title": "Tech"
     },
-    "education":{
+    "education": {
         "title": "Education",
         "college": {
             "init_date": "January - 2020",
             "end_date": "June - 2025",
             "degree": "B.S. in Systems and Computing Engineering",
             "institution": "Universidad de los Andes",
-            "location":"Bogotá, Colombia",
-            "pga": "3.9 / 5.0",
-            "description":"Systems and Computer Engineer from Universidad de los Andes, Colombia, with hands-on experience in machine learning, data pipelines, cloud computing (AWS & GCP), and full-stack development. Passionate about building scalable AI-driven applications and contributing to research-oriented, high-performance engineering teams. Skilled in problem-solving, teamwork, and ownership, with a strong commitment to excellence and continuous learning."
+            "location": "Bogotá, Colombia",
+            "description": "Systems and Computer Engineer from Universidad de los Andes, Colombia, with hands-on experience in machine learning, data pipelines, cloud computing (AWS & GCP), and full-stack development. Passionate about building scalable AI-driven applications and contributing to research-oriented, high-performance engineering teams. Skilled in problem-solving, teamwork, and ownership, with a strong commitment to excellence and continuous learning."
         },
-        "certificates":{
-            "title":"Certificates",
-            "info":[
+        "certificates": {
+            "title": "Certificates",
+            "info": [
                 {
-
+                    "name": "Learn C++ Course",
+                    "description": "Certificate of Completion",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/b74a2390dfc4127fa5d43fe147425ad0",
+                    "date": "Issued Nov 2025"
+                },
+                {
+                    "name": "Building Transformer-Based Natural Language Processing Applications",
+                    "description": "Certificate of Competency",
+                    "institution": "Nvidia",
+                    "link": "https://learn.nvidia.com/certificates?id=5VJWBVKoTdqGlvTrK6GJTA",
+                    "date": "Issued Sep 2025"
+                },
+                {
+                    "name": "Fundamentals of Deep Learning",
+                    "description": "Certificate of Competency",
+                    "institution": "Nvidia",
+                    "link": "https://learn.nvidia.com/certificates?id=Q5JKXgdBQkOns3rGxCPSsg",
+                    "date": "Issued Sep 2025"
+                },
+                {
+                    "name": "Learn Go Course",
+                    "description": "Certificate of Completion",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/60773d2e920679c8e46ff634b9ed2e6e",
+                    "date": "Issued Sep 2025"
+                },
+                {
+                    "name": "Learn Go: Loops, Arrays, Maps, and Structs Course",
+                    "description": "Certificate of Completion",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/c5a07b3444c44fb0b3883075c5af51f4",
+                    "date": "Issued Sep 2025"
+                },
+                {
+                    "name": "Learn Intermediate Go Course",
+                    "description": "Certificate of Completion",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/42ee48b10e8644f0b3131a933c02cd00",
+                    "date": "Issued Sep 2025"
+                },
+                {
+                    "name": "Learn Vue.js Course",
+                    "description": "Certificate of Completion",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/db927a84bf4bba96bb285ee6a85466fc",
+                    "date": "Issued Sep 2025"
+                },
+                {
+                    "name": "Intro to Cloud Computing Course",
+                    "description": "Certificate of Completion",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/1353857e7ad5c1d0d578073e0d5e31e4",
+                    "date": "Issued Apr 2025"
+                },
+                {
+                    "name": "Intro to Generative AI Course",
+                    "description": "Certificate of Completion",
+                    "institution": "Codecademy",
+                    "link": "https://www.codecademy.com/profiles/julianrivera35/certificates/28ccb695c353465a8785a036ad32d3b9",
+                    "date": "Issued Apr 2025"
+                },
+                {
+                    "name": "Building LLM Applications With Prompt Engineering",
+                    "description": "Certificate of Competency",
+                    "institution": "Nvidia",
+                    "link": "https://learn.nvidia.com/certificates?id=nhBDvRRtTEe17e1TFUutSA",
+                    "date": "Issued Jan 2025"
+                },
+                {
+                    "name": "Generative AI with Diffusion Models",
+                    "description": "Certificate of Competency",
+                    "institution": "Nvidia",
+                    "link": "https://learn.nvidia.com/certificates?id=eDniQet2TtWYIT-CQ0WnZw",
+                    "date": "Issued Oct 2024"
+                },
+                {
+                    "name": "Kotlin Multiplatform Masterclass - KMP, KMM - Android, iOS",
+                    "description": "Certificate of Completion",
+                    "institution": "Udemy",
+                    "link": "https://www.udemy.com/certificate/UC-ad8d2d9c-01f5-480d-b065-0b04b6259980/",
+                    "date": "Issued Sep 2024"
                 }
             ]
         }

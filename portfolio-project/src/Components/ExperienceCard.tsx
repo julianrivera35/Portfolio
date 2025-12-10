@@ -48,7 +48,7 @@ const ExperienceCard = ({
                 <span>
                     {description}
                 </span>
-                {technologies ? (<RenderTechnologies technologies={technologies} />) : null}
+                {technologies ? (<RenderTechnologies technologies={technologies} />) : <div className="h-[50px]"></div>}
 
             </div>
         </div>
